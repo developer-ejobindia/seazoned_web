@@ -1,0 +1,1 @@
+ALTER TABLE `landscapers` ADD `latitude` VARCHAR(255) NOT NULL AFTER `location`, ADD `longitude` VARCHAR(255) NOT NULL AFTER `latitude`;

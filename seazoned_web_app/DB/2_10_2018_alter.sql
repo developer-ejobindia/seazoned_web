@@ -1,0 +1,1 @@
+ALTER TABLE `service_ratings` ADD `order_id` INT NULL DEFAULT NULL AFTER `customer_id`;

@@ -1,0 +1,1 @@
+ALTER TABLE `payment_accounts` ADD `account_email` VARCHAR(255) NOT NULL AFTER `user_id`;

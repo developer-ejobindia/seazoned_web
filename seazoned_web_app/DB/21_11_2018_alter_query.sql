@@ -1,0 +1,1 @@
+ALTER TABLE `book_services` ADD `is_completed` INT NOT NULL DEFAULT '0' AFTER `notification_check_time`;

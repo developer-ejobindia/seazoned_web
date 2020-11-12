@@ -1,0 +1,1 @@
+ALTER TABLE `users` ADD `otp` INT(11) NULL AFTER `social_source`, ADD `forgot_password_status` INT(11) NULL AFTER `otp`;

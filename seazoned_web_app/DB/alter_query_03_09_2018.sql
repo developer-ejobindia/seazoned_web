@@ -1,0 +1,1 @@
+ALTER TABLE `book_services` ADD `notification_check_time` TIMESTAMP on update CURRENT_TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP AFTER `reject_time`;

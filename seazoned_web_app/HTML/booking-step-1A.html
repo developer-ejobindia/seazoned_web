@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Seazoned</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet"> 
+
+        <link href="plugins/bootstrap-4.0.0/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="plugins/bootstrap-datetimepicker-master/css/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="plugins/custom-scrollbar/jquery.mCustomScrollbar.css">
+        <link href="plugins/fontawesome-free-5.0.0/web-fonts-with-css/css/fontawesome-all.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/responsive.css" rel="stylesheet" type="text/css">
+
+
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="plugins/bootstrap-4.0.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="plugins/bootstrap-datetimepicker-master/js/bootstrap-datetimepicker.js"></script>
+        <script src="plugins/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="plugins/jquery.simpleWeather/jquery.simpleWeather.min.js"></script>
+        <script type="text/javascript" src="js/weather-widget.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>  
+        
+        
+    </head>
+    <body>
+        <header class="header">
+            <div class="top-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <a class="logo mt-2" href="index.html">
+                                <img src="images/logo_seazoned.png" alt="Seazoned Logo">
+                            </a>
+                        </div>
+                        <div class="col-md-9">
+                            <nav class="header-menu float-lg-right">
+                                <ul class="list-unstyled m-b-0">
+                                    <li class="nav-link-icon"><a href="" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/bell.svg"><span class="blink"></span></a>
+                                        <div class="dropdown-menu header-notification-box p-0" aria-labelledby="dropdownMenuLink">
+                                            <ul class="list-unstyled">
+                                                <li class="notification-item">
+                                                    <a href="">
+                                                        <div class="avtar">
+                                                            <img src="images/avtar-notification.jpg">
+                                                        </div>
+                                                        <div class="notification-text">
+                                                            <p class="m-0 light"><span class="text-dark regular">Garden Assistance Team</span>
+                                                                <span class="text-success">Complete</span> job for Lawn
+                                                                Mowing</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="notification-item">
+                                                    <a href="">
+                                                        <div class="avtar">
+                                                            <img src="images/avtar-notification.jpg">
+                                                        </div>
+                                                        <div class="notification-text">
+                                                            <p class="m-0 light"><span class="text-dark regular">Garden Assistance Team</span>
+                                                                <span class="text-info">Accept</span> job for Lawn
+                                                                Mowing</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="notification-item">
+                                                    <a href="">
+                                                        <div class="avtar">
+                                                            <img src="images/avtar-notification.jpg">
+                                                        </div>
+                                                        <div class="notification-text">
+                                                            <p class="m-0 light"><span class="text-dark regular">Garden Assistance Team</span>
+                                                                <span class="text-danger">Decline</span> job for Lawn
+                                                                Mowing</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-link-icon"><a href=""><img src="images/envelope.svg"></a><span class="blink"></span></li>                                
+                                    <li class="nav-user-login">
+                                        <div class="dropdown">
+                                            <a class="dropdown-toggle" href="" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <div class="avtar">
+                                                    <img src="images/user.jpg">
+
+                                                </div>
+                                                <div class="user-info"><p><b>Welcome!</b><span>Garden Assistance <i class="fa fa-caret-down"></i></span></div>
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <a class="dropdown-item" href="#">Something else here</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="menu-collapse-btn"><i class="fa fa-bars"></i></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="close-sidebar">&times;</a>
+                            <div class="sidenav-menu">
+                                <a href="">Home</a>
+                                <a href="">About Us</a>
+                                <a href="">Explore Services</a>
+                                <a href="">Seazoned Blog.</a>
+                                <a href="">FAQ</a>
+                                <a href="">Privacy Policy</a>
+                                <a href="">Press Room</a>
+                                <a href="">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <section class="main-content dashboard p-t-30">
+            <div class="container">                
+                <form class="booking-freq">
+                    <h3 class="m-b-15 page-heading">Select Frequency</h3>
+                    <div class="frequency-type m-b-30">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                                <label for="frequency-1" class="radio-frequency-box">
+                                    <input id="frequency-1" name="frequency" type="radio">
+                                    <span class="total-text-ser">
+                                        <i class="fa fa-check float-right"></i>
+                                        <span class="type-of-service regular">Recurring services</span>
+                                        <span class="time-of-service medium">Every 7 days</span>
+                                        <span class="price-of-service medium">$ 100.37</span>
+                                    </span>
+                                </label>                        
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <label for="frequency-2" class="radio-frequency-box">
+                                    <input id="frequency-2" name="frequency" type="radio">
+                                    <span class="total-text-ser">
+                                        <i class="fa fa-check float-right"></i>
+                                        <span class="type-of-service regular">Recurring services</span>
+                                        <span class="time-of-service medium">Every 10 days</span>
+                                        <span class="price-of-service medium">$ 95.00</span>
+                                    </span>
+                                </label>                        
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <label for="frequency-3" class="radio-frequency-box">
+                                    <input id="frequency-3" name="frequency" type="radio">
+                                    <span class="total-text-ser">
+                                        <i class="fa fa-check float-right"></i>
+                                        <span class="type-of-service regular">Recurring services</span>
+                                        <span class="time-of-service medium">Every 14 days</span>
+                                        <span class="price-of-service medium">$ 70.98</span>
+                                    </span>
+                                </label>                        
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <label for="frequency-4" class="radio-frequency-box">
+                                    <input id="frequency-4" name="frequency" type="radio">
+                                    <span class="total-text-ser">
+                                        <i class="fa fa-check float-right"></i>
+                                        <span class="type-of-service regular">Single services</span>
+                                        <span class="time-of-service medium">Just Once</span>
+                                        <span class="price-of-service single-service medium">$ 120.00</span>
+                                    </span>
+                                </label>                        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row custom-form">
+                        <div class="col-md-9">
+                            <div class="service-dtls m-b-50">
+                                <div class="card">
+                                    <div class="card-header card-header-success">
+                                        <h4 class="m-0 regular">Fill Service Details</h4>                                            
+                                    </div>                                   
+                                    <div class="card-block user-profile-details">
+                                        <div class="row custom-form">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="dtp_input1">Date Of Birth </label>
+                                                    <div class="input-group date form_date dob" data-date="1979-09-16" data-date-format="dd MM yyyy" data-link-field="dtp_input1">
+                                                        <input class="form-control" type="text" value="" >
+                                                        <span class="input-group-addon"><span class="far fa-calendar-alt"></span></span>
+                                                    </div>
+                                                    <input type="hidden" id="dtp_input1" value="" />
+                                                </div>
+                                            </div>     
+
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="time" class="medium">Preferred Time<span class="m-l-5">*</span></label>                                                     
+                                                    <select class="form-control" id="time">
+                                                        <option>-select time-</option>
+                                                        <option></option>
+                                                        <option></option>
+                                                    </select>  
+                                                    <p class="m-t-15 m-b-0"><i class="fas fa-info-circle m-r-5"></i>Preferred time is only a preference as service providers may
+                                                        be working other Seazoned jobs at that time.
+                                                    </p>
+                                                </div>  
+                                            </div>                                            
+                                        </div>
+                                        <div class="row">                                            
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="image" class="medium">Upload Project Image (Optional)</label>
+                                                    <div class="input-group">                                                    
+                                                        <input type="file" class="" id="image">                                                    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="text" class="medium">Anything more you would like your provider to
+                                                        know?</label>
+                                                    <textarea class="form-control card-no-radius" id="text" rows="4"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service-add m-b-30">
+                                <div class="card m-t-30 card-no-radius">
+                                    <div class="card-header card-header-success">
+                                        <h4 class="m-0 regular">My Address Book</h4>
+                                        <a href="" class="float-right medium add-icon header-link" data-toggle="modal" data-target="#add_address">ADD NEW ADDRESS</a>
+                                    </div>
+                                    <div class="card-block">
+                                        <div class="form-check">
+                                            <label class="form-check-label d-block">
+                                                <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1">
+                                                <div class="address-block clearfix d-block w-100">
+                                                    <div class="address-left float-left">
+                                                        <h5 class="regular m-b-10">Tom Wilson</h5>
+                                                        <p class="m-b-10 light">29 Sleepy Hollow Drive, Hamilton Parish, Bermuda</p>
+                                                        <p class="m-b-10 light">Phone: (123) 123-456</p>
+                                                        <p class="m-b-10 light">E-Mail: office@example.com</p>
+                                                    </div>
+                                                    <a href="" class="float-right medium" data-toggle="modal" data-target="#add_address">EDIT</a>
+                                                </div>
+                                            </label>
+                                        </div>                                        
+                                    </div>
+                                    <hr class="m-0">
+                                    <div class="card-block">
+                                        <div class="form-check">
+                                            <label class="form-check-label d-block">
+                                                <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1">
+                                                <div class="address-block clearfix d-block">
+                                                    <div class="address-left float-left">
+                                                        <h5 class="regular m-b-10">Mike Doe</h5>
+                                                        <p class="m-b-10 light">12345 Little Lonsdale St, Melbourne</p>
+                                                        <p class="m-b-10 light">Phone: (123) 123-456</p>
+                                                        <p class="m-b-10 light">E-Mail: office@example.com</p>
+                                                    </div>
+                                                    <a href="" class="float-right medium" data-toggle="modal" data-target="#add_address">EDIT</a>
+                                                </div>
+                                            </label>
+                                        </div>                                        
+                                    </div> 
+                                    <div class="card-footer">
+                                        <div class="row">
+                                            <div class="col-md-6 col-sm-6 col-12">
+                                                <div class="text-left">
+                                                    <button type="submit" class="btn-secondary noradius btn d-inline-block">Cancel</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-12">
+                                                <div class="text-right">
+                                                    <button type="submit" class="btn-success noradius btn d-inline-block">Continue <i class="fa fa-long-arrow-alt-right"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                                         
+                        <div class="col-md-3">
+                            <div class="card side-menu card-no-radius">
+                                <div class="card-block p-t-40 p-b-30">
+                                    <div class="avtar">
+                                        <img src="images/avtar-landscaper.jpg">                                        
+                                    </div>
+                                    <h4 class="profile-name text-center m-0 m-t-20 medium">Garden Assistance Team</h4>
+                                    <p class="text-center m-t-20 light">Service : Snow Removal</p>
+                                </div>                            
+                            </div>
+                            <div class="weather-widget m-t-30">
+                                <div class="current-weather">
+                                    <p class="day"></p>
+                                    <div class="date">
+                                        <h5 class="month">May<span>21</span></h5>
+                                    </div>
+                                    <div class="weather-icon text-center m-b-25" id="weather-icon">
+                                    </div>
+                                    <div class="weather-info">
+                                        <div class="temperature">
+                                            <h2 class="m-b-0" id="temperature"></h2>
+                                        </div>
+                                        <div class="weather-type-location p-l-15">
+                                            <h4 class="m-0" id="weather_code">Please wait</h4>
+                                            <p class="m-0 m-t-5" id="weather_location">Loading Weather...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="weather-other-details">
+                                    <div class="row no-gutters">
+                                        <div class="col text-center text-white" id="weather_wind"></div>
+                                        <div class="col text-center" id="weather_humidity"></div>
+                                    </div>
+                                </div>
+                                <div class="weekly-report">
+                                    <div class="weakly-report-scroll" id="content-6" >
+                                        <ul class="list-inline list-unstyled" id="weather_forecast"></ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>           
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="top-footer p-y-40">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12 col-12 footer-about">
+                            <h5 class="m-b-20">About Seazoned</h5>
+                            <p class="m-0">The Seazoned app brings you on-demand yard and home solutions at the click of a button. Choose from a list of services offered by Seazoned pros at a price that works for you.</p>
+                            <div class="footer-social clearfix m-t-20">
+                                <ul class="list-unstyled list-inline">
+                                    <li class="list-inline-item"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="list-inline-item"><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li class="list-inline-item"><a href=""><i class="fab fa-youtube"></i></a></li>
+                                    <li class="list-inline-item"><a href=""><i class="fab fa-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href=""><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-app-btn m-30 m-l-0">
+                                <div class="row">                            
+                                    <div class="col-md col-sm-6 col-6 p-0 m-l-15 m-b-10">
+                                        <a href="" class="d-inline-block float-left"><img src="images/app-store-btn.png" alt=""></a>
+                                    </div> 
+                                    <div class="col-md col-sm-6 col-6 p-0 m-l-10">
+                                        <a href="" class="d-inline-block float-left"><img src="images/google-play-btn.png" alt=""></a>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-sm-12 col-12 quick-links">
+                            <h5>More Important links</h5>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li><a href="">Customer Login or Register</a></li>
+                                        <li><a href="">Order Service</a></li>
+                                        <li><a href="">Frequently Asked Questions</a></li>
+                                        <li><a href="">Our Blog</a></li>
+                                        <li><a href="">Privacy Policy</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li><a href="">Provider Login/Registration</a></li>
+                                        <li><a href="">Why Work with Us</a></li>
+                                        <li><a href="">Lawn Mowing Tips</a></li>
+                                        <li><a href="">Terms of Services</a></li>
+                                        <li><a href="">Customer Support</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-12">
+                            <h5 class="m-b-15">Contact Us Now</h5>
+                            <form class="footer-contact-form">
+                                <div class="form-group">                                
+                                    <input type="text" class="form-control" id="name" placeholder="Your Full Name">                                
+                                </div>
+                                <div class="form-group">                                
+                                    <input type="email" class="form-control" id="email" placeholder="Your email address">                                
+                                </div>
+                                <div class="form-group">                                
+                                    <textarea class="form-control" id="textArea" rows="5" placeholder="Write here..."></textarea>                             
+                                </div>
+                                <button class="btn btn-warning p-10 noradius" type="submit">SEND MESSAGE</button>   
+                            </form>
+                        </div>
+                    </div>                
+                </div>  
+            </div>
+            <div class="bottom-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md">
+                            <p class="m-0 text-center p-y-15">&copy Copyright 2017 Seazoned</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>    
+        <div class="modal fade" id="add_address" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Add address</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <form class="custom-form">
+                        <div class="modal-body">                       
+                            <div class="row m-b-10">
+                                <div class="col-md">
+                                    <div class="form-group">
+                                        <label for="f-name">First Name</label>
+                                        <input type="text" class="form-control" id="f-name" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-md">
+                                    <div class="form-group">
+                                        <label for="l-name">Last Name</label>                                                                          
+                                        <input type="text" class="form-control" id="l-name" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row m-b-10">
+                                <div class="col-md">
+                                    <div class="form-group">
+                                        <label for="mail">Email ID</label>
+                                        <input type="text" class="form-control" id="mail" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-md">
+                                    <div class="form-group">
+                                        <label for="tel">Phone Number</label>                                                                          
+                                        <input type="text" class="form-control" id="tel" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row m-b-10">
+                                <div class="col-md">
+                                    <div class="form-group">
+                                        <label>Date of Birth</label>                                           
+                                        <div class="input-group" data-provide="datepicker">                                                         
+                                            <input type="text" class="form-control date" placeholder="">
+                                            <span class="input-group-addon"><i class="fas fa-calendar-alt"></i></span>                                                        
+                                        </div>
+                                    </div>
+                                </div>                                        
+                                <div class="col-md">
+                                    <div class="form-group">
+                                        <label for="street">Street/Location</label>                                                                          
+                                        <input type="text" class="form-control" id="street" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row m-b-10">
+                                <div class="col-md">
+                                    <div class="form-group">
+                                        <label for="city">City</label>
+                                        <input type="text" class="form-control" id="city" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-md">
+                                    <div class="form-group">
+                                        <label for="state">State</label>                                                                          
+                                        <input type="text" class="form-control" id="state" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row m-b-10">                                        
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="country">Country</label>                                                                          
+                                        <select class="form-control" id="country">
+                                            <option>USA</option>
+                                            <option>USA</option>
+                                            <option>USA</option>
+                                            <option>USA</option>
+                                        </select>
+                                    </div>
+                                </div>                          
+                            </div>                                 
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<script type="text/javascript">
+            $('.form_date').datetimepicker({
+                language: 'en',
+                weekStart: 1,
+                autoclose: 1,
+                todayHighlight: 1,
+                startView: 2,
+                minView: 2,
+                forceParse: 0
+            });
+        </script>

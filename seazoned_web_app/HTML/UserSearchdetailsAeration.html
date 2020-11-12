@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Seazoned</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet"> 
+
+        <link href="plugins/bootstrap-4.0.0/css/bootstrap.css" rel="stylesheet" type="text/css">
+
+        <link rel="stylesheet" href="plugins/custom-scrollbar/jquery.mCustomScrollbar.css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/responsive.css" rel="stylesheet" type="text/css">
+        <link href="plugins/fontawesome-free-5.0.0/web-fonts-with-css/css/fontawesome-all.css" rel="stylesheet">
+
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="plugins/bootstrap-4.0.0/js/bootstrap.min.js"></script>
+        <script src="plugins/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="plugins/jquery.simpleWeather/jquery.simpleWeather.min.js"></script>
+        <script type="text/javascript" src="js/weather-widget.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="top-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <a class="logo mt-2" href="index.html">
+                                <img src="images/logo_seazoned.png" alt="Seazoned Logo">
+                            </a>
+                        </div>
+                        <div class="col-md-9">
+                            <nav class="header-menu float-lg-right">
+                                <ul class="list-unstyled m-b-0">
+                                    <li class="nav-link-icon"><a href="" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/bell.svg"><span class="blink"></span></a>
+                                        <div class="dropdown-menu header-notification-box p-0" aria-labelledby="dropdownMenuLink">
+                                            <ul class="list-unstyled">
+                                                <li class="notification-item">
+                                                    <a href="">
+                                                        <div class="avtar">
+                                                            <img src="images/avtar-notification.jpg">
+                                                        </div>
+                                                        <div class="notification-text">
+                                                            <p class="m-0 light"><span class="text-dark regular">Garden Assistance Team</span>
+                                                                <span class="text-success">Complete</span> job for Lawn
+                                                                Mowing</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="notification-item">
+                                                    <a href="">
+                                                        <div class="avtar">
+                                                            <img src="images/avtar-notification.jpg">
+                                                        </div>
+                                                        <div class="notification-text">
+                                                            <p class="m-0 light"><span class="text-dark regular">Garden Assistance Team</span>
+                                                                <span class="text-info">Accept</span> job for Lawn
+                                                                Mowing</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="notification-item">
+                                                    <a href="">
+                                                        <div class="avtar">
+                                                            <img src="images/avtar-notification.jpg">
+                                                        </div>
+                                                        <div class="notification-text">
+                                                            <p class="m-0 light"><span class="text-dark regular">Garden Assistance Team</span>
+                                                                <span class="text-danger">Decline</span> job for Lawn
+                                                                Mowing</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-link-icon"><a href=""><img src="images/envelope.svg"></a><span class="blink"></span></li>                                
+                                    <li class="nav-user-login">
+                                        <div class="dropdown">
+                                            <a class="dropdown-toggle" href="" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <div class="avtar">
+                                                    <img src="images/user.jpg">
+
+                                                </div>
+                                                <div class="user-info"><p><b>Welcome!</b><span>Garden Assistance <i class="fa fa-caret-down"></i></span></div>
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <a class="dropdown-item" href="#">Something else here</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="menu-collapse-btn"><i class="fa fa-bars"></i></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="close-sidebar">&times;</a>
+                            <div class="sidenav-menu">
+                                <a href="">Home</a>
+                                <a href="">About Us</a>
+                                <a href="">Explore Services</a>
+                                <a href="">Seazoned Blog.</a>
+                                <a href="">FAQ</a>
+                                <a href="">Privacy Policy</a>
+                                <a href="">Press Room</a>
+                                <a href="">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <section class="feature-banner" style="background: linear-gradient(180deg, rgba(0,0,0,0.0) 15%, rgba(0,0,0,0.8) 80%), url('images/feature-image-big.jpg') no-repeat 0 0 / cover;">
+
+        </section>
+        <section class="main-content search-details p-y-30">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12 col-xs-12">
+                        <div class="banner-profile-sec clearfix">
+                            <div class="avtar">
+                                <img src="images/avtar-landscaper.jpg">
+                            </div>
+                            <div class="pro-details">
+                                <h4 class="profile-name medium m-0">Garden Assistance Team</h4>
+                                <h5 class="address light m-0 m-t-10"><i class=" fa fa-location-arrow"></i>  Northbrook, IL, United States </h5>
+                                <div class="m-t-10">
+                                    <span class="badge badge-primary">4.5 <i class="fa fa-star"></i></span>
+                                    <small>(12405 ratings & 8301 reviews) </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services-list m-t-40">
+                            <h3 class="page-heading m-0 regular">Garden Assistance Team’ Services</h3>
+                            <hr class="m-b-20">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <a class="service-box text-center" href="">
+                                        <div class="service-img">
+                                            <img src="images/mowing.svg">
+                                        </div>
+                                        <h4 class="d-block m-0 m-t-20">mowing and edging <i class="fa fa-caret-right"></i></h4>
+                                    </a>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <a class="service-box text-center" href="">
+                                        <div class="service-img">
+                                            <img src="images/leaf-removal.svg">
+                                        </div>
+                                        <h4 class="d-block m-0 m-t-20">leaf removal <i class="fa fa-caret-right"></i></h4>
+                                    </a>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <a class="service-box text-center" href="">
+                                        <div class="service-img">
+                                            <img src="images/lawn-treatment.svg">
+                                        </div>    
+                                        <h4 class="d-block m-0 m-t-20">lawn treatment <i class="fa fa-caret-right"></i></h4>
+                                    </a>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <a class="service-box active text-center" href="">
+                                        <div class="service-img">
+                                            <img src="images/aeration.png">
+                                        </div>
+                                        <h4 class="d-block m-0 m-t-20">aeration <i class="fa fa-caret-right"></i></h4>
+                                    </a>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <a class="service-box text-center" href="">
+                                        <div class="service-img">
+                                            <img src="images/sprinkler.svg">
+                                        </div>
+                                        <h4 class="d-block m-0 m-t-20">sprinkler winterizing <i class="fa fa-caret-right"></i></h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <h3 class="page-heading m-0 regular">Description</h3>
+                            <hr class="m-b-20">
+                            <p>
+                                Ut euismod ultricies sollicitudin. Curabitur sed dapibus nulla. Nulla eget iaculis lectus. Mauris ac maximus neque. Nam in mauris quis libero sodales eleifend. Morbi varius, nulla sit amet rutrum elementum, est elit finibus tellus, ut tristique elit risus at metus. Sed fermentum, lorem vitae efficitur imperdiet, neque velit tristique turpis, et iaculis mi tortor finibus turpis.
+
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar. Donec a consectetur nulla. 
+                            </p>
+                        </div>
+                        <div class="rating m-t-30">
+                            <h3 class="page-heading m-0 regular">Rating and reviews</h3>
+                            <hr class="m-b-20">
+                            <div class="rating-line-total">
+                                <div class="total-value">
+                                    4.5
+                                </div>
+                                <div class="scale-bar">
+                                    <div class="ratingvalue">
+                                        <p class="value">5.0 <i class="fa fa-star" aria-hidden="true"></i></p>
+                                        <div class="ratingline-total">
+                                            <div class="rating-line">
+                                                <div class="line-value green-bg" style="width: 100%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="rating-count">26,638</div>
+                                    </div>
+                                    <div class="ratingvalue">
+                                        <p class="value">4.0 <i class="fa fa-star" aria-hidden="true"></i></p>
+                                        <div class="ratingline-total">
+                                            <div class="rating-line">
+                                                <div class="line-value green-bg" style="width: 50%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="rating-count">14,578</div>
+                                    </div>
+                                    <div class="ratingvalue">
+                                        <p class="value">3.0 <i class="fa fa-star" aria-hidden="true"></i></p>
+                                        <div class="ratingline-total">
+                                            <div class="rating-line">
+                                                <div class="line-value orange-bg" style="width: 30%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="rating-count">1,676</div>
+                                    </div>
+                                    <div class="ratingvalue">
+                                        <p class="value">2.0 <i class="fa fa-star" aria-hidden="true"></i></p>
+                                        <div class="ratingline-total">
+                                            <div class="rating-line">
+                                                <div class="line-value orange-bg" style="width: 20%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="rating-count">1,676</div>
+                                    </div>
+                                    <div class="ratingvalue">
+                                        <p class="value">2.0 <i class="fa fa-star" aria-hidden="true"></i></p>
+                                        <div class="ratingline-total">
+                                            <div class="rating-line">
+                                                <div class="line-value red-bg" style="width: 35%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="rating-count">1,676</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card-block col-md p-x-0 p-y-15 user-review-group d-table">
+                                <div class="user-review-avtar d-table-cell align-top">
+                                    <div class="avtar">
+                                        <img src="images/avtar-landscaper.jpg ">
+                                    </div>
+                                </div>
+                                <div class="booking-details-user-review d-table-cell align-top p-l-15">
+                                    <div class="username-date w-100">
+                                        <h4 class="text-left d-inline-block regular m-b-15">Garden Assistance Team</h4>
+                                        <h5 class="d-inline-block regular float-right">10 NOV 2016</h5>
+                                    </div>
+                                    <div class="rating col-md-auto m-b-10">
+                                        <ul class="list-unstyled m-b-0">
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                        </ul>
+                                    </div>
+                                    <p class="m-0">Location was comfortable, spacious with a great terrace and view. Very nice services.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card-block col-md p-x-0 p-y-15 user-review-group d-table">
+                                <div class="user-review-avtar d-table-cell align-top">
+                                    <div class="avtar">
+                                        <img src="images/avtar-landscaper.jpg ">
+                                    </div>
+                                </div>
+                                <div class="booking-details-user-review d-table-cell align-top p-l-15">
+                                    <div class="username-date w-100">
+                                        <h4 class="text-left d-inline-block regular m-b-15">Garden Assistance Team</h4>
+                                        <h5 class="d-inline-block regular float-right">10 NOV 2016</h5>
+                                    </div>
+                                    <div class="rating col-md-auto m-b-10">
+                                        <ul class="list-unstyled m-b-0">
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                        </ul>
+                                    </div>
+                                    <p class="m-0">Location was comfortable, spacious with a great terrace and view. Very nice services.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card-block col-md p-x-0 p-y-15 user-review-group d-table">
+                                <div class="user-review-avtar d-table-cell align-top">
+                                    <div class="avtar">
+                                        <img src="images/avtar-landscaper.jpg ">
+                                    </div>
+                                </div>
+                                <div class="booking-details-user-review d-table-cell align-top p-l-15">
+                                    <div class="username-date w-100">
+                                        <h4 class="text-left d-inline-block regular m-b-15">Garden Assistance Team</h4>
+                                        <h5 class="d-inline-block regular float-right">10 NOV 2016</h5>
+                                    </div>
+                                    <div class="rating col-md-auto m-b-10">
+                                        <ul class="list-unstyled m-b-0">
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                        </ul>
+                                    </div>
+                                    <p class="m-0">Location was comfortable, spacious with a great terrace and view. Very nice services.</p>
+                                </div>
+                            </div>
+
+                            <div class="text-center m-t-30">
+                                <a class="text-danger" href="#">Show all reviews</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="book-now-form">
+                            <form>
+                                <div class="form-header">
+                                    <h2 class="text-uppercase sm-bold">book NOW</h2>
+                                    <div class="service-intro">
+                                        <p class="sm-bold m-b-5">Aeration Total</p>
+                                        <h3>$120.00</h3>
+                                    </div>
+                                </div>
+                                <div class="form-body">
+                                    <div class="form-group">
+                                        <label for="lawnsize" class="sm-bold title-label">How Big is Your Lawn? <span class="text-danger">*</span></label>
+                                        <select class="form-control" id="lawnsize">
+                                            <option>0.25 - 0.50</option>
+                                            <option>0.50 - 1.00</option>
+                                        </select>
+                                    </div>
+                                    <div class="text-center">
+                                        <button class="btn btn-success text-uppercase btn-lg sm-bold btn-block">cONTINUE BOOKING</button>
+                                    </div>
+
+                                </div>
+
+                            </form>
+
+                        </div>
+
+                        <div class="weather-widget m-t-30">
+                            <div class="current-weather">
+                                <p class="day"></p>
+                                <div class="date">
+                                    <h5 class="month">May<span>21</span></h5>
+                                </div>
+                                <div class="weather-icon text-center m-b-25" id="weather-icon">
+                                </div>
+                                <div class="weather-info">
+                                    <div class="temperature">
+                                        <h2 class="m-b-0" id="temperature"></h2>
+                                    </div>
+                                    <div class="weather-type-location p-l-15">
+                                        <h4 class="m-0" id="weather_code">Please wait</h4>
+                                        <p class="m-0 m-t-5" id="weather_location">Loading Weather...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="weather-other-details">
+                                <div class="row no-gutters">
+                                    <div class="col text-center text-white" id="weather_wind"></div>
+                                    <div class="col text-center" id="weather_humidity"></div>
+                                </div>
+                            </div>
+                            <div class="weekly-report">
+                                <div class="weakly-report-scroll" id="content-6" >
+                                    <ul class="list-inline list-unstyled" id="weather_forecast"></ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-hours m-t-30">
+                            <h4 class="sm-bold">Service Hours</h4>
+                            <table class="table">
+
+                                <tbody>
+                                    <tr>
+                                        <td><b>Monday</b></td>
+                                        <td class="text-right">8:00am - 10:00pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Tuesday</b></td>
+                                        <td class="text-right">8:00am - 10:00pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Wednesday</b></td>
+                                        <td class="text-right">Closed</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Thuersday</b></td>
+                                        <td class="text-right">8:00am - 10:00pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Friday</b></td>
+                                        <td class="text-right">Closed</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Saturday</b></td>
+                                        <td class="text-right">8:00am - 10:00pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Sunday</b></td>
+                                        <td class="text-right">8:00am - 10:00pm</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="top-footer p-y-40">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12 col-12 footer-about">
+                            <h5 class="m-b-20">About Seazoned</h5>
+                            <p class="m-0">The Seazoned app brings you on-demand yard and home solutions at the click of a button. Choose from a list of services offered by Seazoned pros at a price that works for you.</p>
+                            <div class="footer-social clearfix m-t-20">
+                                <ul class="list-unstyled list-inline">
+                                    <li class="list-inline-item"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="list-inline-item"><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li class="list-inline-item"><a href=""><i class="fab fa-youtube"></i></a></li>
+                                    <li class="list-inline-item"><a href=""><i class="fab fa-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href=""><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-app-btn m-30 m-l-0">
+                                <div class="row">                            
+                                    <div class="col-md col-sm-6 col-6 p-0 m-l-15 m-b-10">
+                                        <a href="" class="d-inline-block float-left"><img src="images/app-store-btn.png" alt=""></a>
+                                    </div> 
+                                    <div class="col-md col-sm-6 col-6 p-0 m-l-10">
+                                        <a href="" class="d-inline-block float-left"><img src="images/google-play-btn.png" alt=""></a>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-sm-12 col-12 quick-links">
+                            <h5>More Important links</h5>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li><a href="">Customer Login or Register</a></li>
+                                        <li><a href="">Order Service</a></li>
+                                        <li><a href="">Frequently Asked Questions</a></li>
+                                        <li><a href="">Our Blog</a></li>
+                                        <li><a href="">Privacy Policy</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li><a href="">Provider Login/Registration</a></li>
+                                        <li><a href="">Why Work with Us</a></li>
+                                        <li><a href="">Lawn Mowing Tips</a></li>
+                                        <li><a href="">Terms of Services</a></li>
+                                        <li><a href="">Customer Support</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-12">
+                            <h5 class="m-b-15">Contact Us Now</h5>
+                            <form class="footer-contact-form">
+                                <div class="form-group">                                
+                                    <input type="text" class="form-control" id="name" placeholder="Your Full Name">                                
+                                </div>
+                                <div class="form-group">                                
+                                    <input type="email" class="form-control" id="email" placeholder="Your email address">                                
+                                </div>
+                                <div class="form-group">                                
+                                    <textarea class="form-control" id="textArea" rows="5" placeholder="Write here..."></textarea>                             
+                                </div>
+                                <button class="btn btn-warning p-10 noradius" type="submit">SEND MESSAGE</button>   
+                            </form>
+                        </div>
+                    </div>                
+                </div>  
+            </div>
+            <div class="bottom-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md">
+                            <p class="m-0 text-center p-y-15">&copy Copyright 2017 Seazoned</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

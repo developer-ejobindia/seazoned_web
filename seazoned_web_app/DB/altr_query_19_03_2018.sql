@@ -1,0 +1,1 @@
+ALTER TABLE `favorite_landscapers` ADD `visible` INT NOT NULL AFTER `landscaper_id`;

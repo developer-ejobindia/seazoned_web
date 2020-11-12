@@ -1,0 +1,187 @@
+@media only screen and (min-width: 993px) {
+    .header-menu ul li.menu-login-btn {
+        margin: 0px 15px;
+    }
+    .header-menu ul li.menu-login-btn a {
+        padding: 30px 20px;
+    }
+
+    .nav-search .form-inline .input-group > input[type=text] + .input-group-btn + .input-group-btn {
+        display: none;
+    }
+    .nav-search .form-inline .input-group > input[type=text] + .input-group-btn > .btn {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+}
+@media only screen and (max-width: 992px) {
+
+    .header-menu ul{
+        float: right;
+        height: 90px;
+    }
+    .header-menu ul li.menu-collapse-btn {
+        padding-left: 10px;
+    }
+    .container {
+        width: 98%;
+    }
+    .pro-details .profile-name{
+        font-size: 25px;
+    }
+    .nav-user-login{
+        display: table-cell;
+        vertical-align: middle;
+        padding: 0px 10px;
+        position: relative;
+    }
+    .nav-user-login a.dropdown-toggle:after{
+        display: none
+    }
+    .nav-user-login a.user-mobile{
+        padding: 0px;
+    }
+    .nav-user-login a.user-mobile > img{
+        width: 24px;
+    }
+
+    .nav-search .form-inline .input-group > input[type=text] + .input-group-btn + .input-group-btn {
+        display: none;
+    }
+    .nav-search .form-inline .input-group > input[type=text] + .input-group-btn > .btn {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .header-menu ul li.menu-login-btn {
+        margin: 0px 15px;
+    }
+    .header-menu ul li.search-icon{
+        font-size: 17px;
+        padding: 30px 17px;
+        margin: 0px;
+        display: table-cell;
+    }
+    .header-menu ul li.search-icon a {
+        color: #565454;
+        font-size: 20px;
+        font-weight: 300;
+        text-decoration: none;
+    }
+    .nav-user-login{
+        display: table-cell;
+        vertical-align: middle;
+        padding: 0px 10px;
+        position: relative;
+    }
+    .nav-user-login a.dropdown-toggle:after{
+        display: none
+    }
+    .nav-user-login a.user-mobile{
+        padding: 0px;
+    }
+    .nav-user-login a.user-mobile > img{
+        width: 24px;
+    }
+    section.banner .welcome-text {
+        margin-top: 25px;
+    }
+    .big-search-icon{
+        display: none;
+    }
+    .nav-search-container{
+        display: none;
+    }
+    .show-search .nav-search-container {
+        display: block;
+        position: absolute;
+        width: calc(100% + 14px);
+        top: 0;
+        left: 0;
+        background: #fff;
+        padding: 20px;
+        z-index: 9;
+        margin-left: -7px;
+        height: 90px;
+    }
+    .show-search .nav-search-container .nav-search {
+        margin-top: 0;
+    }
+    .nav-search .form-inline .input-group > input[type=text] + .input-group-btn + .input-group-btn {
+        display: flex;
+    }
+    .nav-search .form-inline .input-group > input[type=text] + .input-group-btn > .btn {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .header-menu ul {
+        float: right;
+        height: 90px;
+    }
+    .menu-collapse-btn{
+        padding-left: 10px;
+    }
+    .search-details .book-now-form {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .banner-profile-sec .avtar{
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+    .feature-banner{
+        height: 300px;
+    }
+    .pro-details{
+        width:100%;
+        text-align: center;
+        position: inherit;
+        left: inherit;
+        margin-top: 10px;
+    }
+    .pro-details .profile-name{
+        font-size: 22px;
+        width: 100%;
+    }
+
+    .header-menu ul{
+        float: right;
+    }
+    .header-menu ul li.menu-login-btn {
+        margin: 0px 15px;
+    }
+    section.banner .welcome-text {
+        margin-top: 25px;
+    }
+    .header-menu ul li.search-icon{
+        font-size: 17px;
+        padding: 30px 17px;
+        margin: 0px;
+        display: table-cell;
+    }
+    .header-menu ul li.search-icon a {
+        color: #565454;
+        font-size: 20px;
+        font-weight: 300;
+        text-decoration: none;
+    }
+    .header-menu ul li.menu-login-btn a {
+        padding: 30px 15px;
+        font-size: 17px;
+        color: #fff;
+        background: #de4d4f;
+        text-decoration: none;
+        display: block;
+    }
+    .header-menu ul li.menu-login-btn {
+        margin-left: 0px;
+    }
+    .nav-user-login .dropdown-menu{
+        left: auto;
+        right: 0px;
+    }
+}

@@ -1,0 +1,497 @@
+@media only screen and (max-width: 1100px) {
+    .user-desk{
+        display: none !important;
+    }
+    .user-mobile{
+    display:block !important;
+    }
+    .nav-user-login a.user-mobile > img{
+        width: 24px;
+    }
+    section.user-message{
+        padding: 30px 0;
+    }
+    .left-user-msg-box {
+    background: #fff;
+    border-right: none;
+    width: 100%;
+    overflow: auto;
+    height: auto;
+    border-bottom: 1px solid #e2e2e2;
+}
+.left-user-msg-box h3 {
+    padding: 5px 15px;
+    color: #13c49e;
+    font-size: 19px;
+}
+.right-chat-sec {
+    width: 100%;
+    overflow: scroll;
+    height: 100%;
+    margin-top: 25px;
+    border-top: 1px solid #e2e2e2;
+}
+.expand-chat{
+    display: none;
+}
+.user-message .right-chat-sec  .media-body h5{
+    color:#13c49e;
+}
+}
+@media only screen and (min-width: 993px) {
+    .header-menu ul li.menu-login-btn {
+        margin: 0px 15px;
+    }
+    .header-menu ul li.menu-login-btn a {
+        padding: 30px 20px;
+    }
+
+    .nav-search .form-inline .input-group > input[type=text] + .input-group-btn + .input-group-btn {
+        display: none;
+    }
+    .nav-search .form-inline .input-group > input[type=text] + .input-group-btn > .btn {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+    header .top-header .logo{
+    display: block;
+    margin-top: 19px !important;
+}
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1199px) { 
+    .app-btn-footer{
+        display:block;
+        margin-bottom: 10px;
+    }
+    .footer-social ul li{
+        margin: 8px 8px 0 0;
+    }
+    
+   
+}
+@media only screen and (max-width: 992px) {
+
+    .header-menu ul{
+        float: right;
+        
+    }
+    .header-menu ul li.menu-collapse-btn {
+        padding-left: 10px;
+    }
+    .container {
+        width: 98%;
+    }
+    .pro-details .profile-name{
+        font-size: 25px;
+    }
+    .nav-user-login{
+        display: table-cell;
+        vertical-align: middle;
+        padding: 0px 10px;
+        position: relative;
+    }
+    .nav-user-login a.dropdown-toggle:after{
+        display: none
+    }
+    .nav-user-login a.user-mobile{
+        padding: 0px;
+    }
+    
+
+    .nav-search .form-inline .input-group > input[type=text] + .input-group-btn + .input-group-btn {
+        display: none;
+    }
+    .nav-search .form-inline .input-group > input[type=text] + .input-group-btn > .btn {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+    header .top-header .logo img{
+        margin-top: 23px;
+width: 117px;
+    }
+    .service-box h4{
+        font-size: 14px;
+    }
+     .search-listing .heading {
+    font-size: 21px;
+    margin-bottom: 15px !important;
+}
+.card-block .btn{
+font-size: 13px;
+padding: 11px 8px;
+}
+}
+@media only screen and (max-width: 767px) {
+    header{
+        background: #ffffff;
+    }
+    .card-block .btn{
+        margin-bottom: 25px;
+    }
+    .booking-details .booking-service-details .card-header .service-status{
+        font-size: 15px;
+    }
+    .booking-details .header-back h4 {
+    color: #5e5e5e;
+    font-size: 14px;
+    padding-left: 0 !important;
+}
+.booking-details .booking-service-details .card-header .service-status {
+    margin-top: 11px;
+}
+.booking-details .booking-service-details .card-header .service-status i{
+    margin-right: 0 !important;
+}
+.card-block.p-x-20.p-y-35, .card-header.p-x-20.p-y-20{
+    padding: 15px !important;
+}
+.card-block.p-x-20.p-y-35 .media{
+    margin-bottom: 15px;
+}
+.booking-details .booking-service-details .customer-details h5 {
+    font-size: 20px;
+    margin-bottom: 15px !important;
+}
+    .color-block{
+        margin: 15px 0;
+    }
+    .current-weather .weather-info .weather-type-location h4{
+        font-size:16px;
+    }
+    .notification-icon-bell, .col-staic-small{
+        position: static;
+    }
+    .notification-icon-bell .header-notification-box{
+            width: 100%;
+    box-shadow: 0px 5px 4px rgba(0,0,0,0.4);
+    border: none;
+    border-radius: 0px;
+    right: auto;
+    left: 0;
+    margin-top: 0px;
+    max-height: initial;
+    overflow-y: auto;
+    top: 86px;
+    z-index: 9999;
+
+    }
+    .notification-icon-bell .header-notification-box ul.list-unstyled{
+        float: none;
+    }
+    .notification-icon-bell .header-notification-box .notification-item{
+        display: block;
+    }
+    a.add-icon{
+        text-indent: -9999px;
+        width: 20px;
+    }
+    .booking-list .booking-item .card-header a{
+        font-size: 16px;
+    }
+    .booking-list .booking-item .card-block .service-type-details h4{
+                  font-size: 18px;
+    margin-bottom: 7px !important;
+    font-weight: 500 !important;
+}
+.booking-list .booking-item .card-block .service-type-details h6{
+    font-size: 18px;
+margin-bottom: 8px !important;
+}
+
+    
+    .login-page-form-header {
+        padding: 8px !important;
+    }
+    .login-page-form-header img{
+        width: 150px;
+    }
+    .login-form-body h1{
+        margin-top: 0;
+    }
+    .btn-login-google, .login-form-body .btn-login{
+        padding: 15px;
+    }
+    .btn-login-facebook{
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+    .login-form-body .col-md.p-l-0{
+        padding-left: 15px !important;
+    }
+    .login-page-background{
+        height: auto;
+    }
+    .login-page-form-wrap {
+    width: 82%;
+    margin: 25px auto;
+}
+.login-form-body form{
+   margin-left: 0 !important;
+margin-right: 0 !important
+}
+    .header-bottom-menu{
+        height: auto;
+    }
+    .header-bottom-menu-scroll{
+        overflow-y: scroll;
+    }
+    .header-bottom-menu ul{
+        display: table;
+        width: 100%;
+       max-width: 100%;
+       margin-bottom: 0;
+    }
+    .header-bottom-menu ul li a{
+        padding: 10px 10px 14px 10px;
+    }
+    .header-bottom-menu .container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .header-bottom-menu ul li.list-inline-item{
+        display:table-cell;
+        white-space: nowrap;
+    }
+    a.service-box{
+        padding: 25px 0;
+    }
+    .service-border-right{
+        border:none;
+    }
+    hr.custom-border{
+        display: none;
+    }
+    
+    section.banner{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .header-menu ul li.menu-login-btn {
+        margin: 0px 15px;
+    }
+    header .top-header .logo {
+    display: block;
+    margin-top: 5px !important;
+}
+    header .top-header .logo img {
+    margin-top: 0px;
+    width: 93px;
+}
+    .header-menu ul li{
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .header-menu ul li.search-icon{
+        font-size: 17px;
+        padding: 31px 10px;
+        margin: 0px;
+      
+    }
+    .header-menu ul li.search-icon a {
+        color: #13c49e;
+        font-size: 20px;
+        font-weight: 300;
+        text-decoration: none;
+    }
+    .nav-user-login{
+        display: table-cell;
+        vertical-align: middle;
+        padding: 0px 10px;
+        position: relative;
+    }
+    .nav-user-login a.dropdown-toggle:after{
+        display: none
+    }
+    .nav-user-login a.user-mobile{
+        padding: 0px;
+    }
+    .nav-user-login a.user-mobile > img{
+        width: 24px;
+    }
+    section.banner .welcome-text {
+        margin-top: 25px;
+    }
+    .big-search-icon{
+        display: none;
+    }
+    .nav-search-container{
+        display: none;
+    }
+    .show-search .nav-search-container {
+        display: block;
+        position: absolute;
+        width: calc(100% + 14px);
+        top: 88px;
+        left: 0;
+        background: #fff;
+        padding: 0;
+        z-index: 9;
+        margin-left: -7px;
+        height: auto;
+    }
+    .show-search .nav-search-container .nav-search {
+        margin-top: 0;
+        
+    }
+    .show-search .nav-search-container .nav-search .input-group{
+        display:block;
+         padding: 15px 15px 15px 15px;
+    }
+    .show-search .nav-search-container .nav-search .input-group-btn.d-lg-none.d-sm-none.d-md-none.d-sm-block{
+        position: absolute;
+        z-index: 99;
+        top:0px;
+        right: 15px;
+    } 
+    .show-search .nav-search-container .nav-search .input-group-btn.d-lg-none.d-sm-none.d-md-none.d-sm-block .btn-danger {
+    color: #de4d4f;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    font-size: 22px;
+}
+    .show-search .nav-search-container .nav-search .form-control, .show-search .nav-search-container .nav-search .form-control:hover, .show-search .nav-search-container .nav-search .form-control:focus{
+        display: block;
+        width:100%;
+        border-radius:  0.3rem !important;
+        border-right: 1px solid #e8e8e8;
+        margin-bottom: 30px;
+         color:#000000;
+    }
+  .show-search .nav-search-container .nav-search select.form-control{
+        padding-left: 5px;
+        color:#000000;
+    }
+    
+    .show-search header .top-header .nav-search .input-group::after{
+        left: 16px;
+        top:48px;
+    }
+    
+    .header-menu ul {
+        float: right;
+   
+    }
+    .menu-collapse-btn{
+        padding-left: 10px;
+    }
+    .search-details .book-now-form {
+        margin-top: 30px;
+    }
+    section.seazoned-app h4{
+          margin-top: 0px !important;
+}
+.mobile-padding1{
+   padding: 0 15px !important; 
+}
+.andro-mobile, .ipnonex-mobile{
+    width: 70%;
+    margin: 0 auto;
+}
+.mobile-text-center{
+    text-align: center;
+}
+.mobile-app-btn{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.mobile-app-btn img{
+    width:125px;
+}
+.how-work-step{
+    margin-bottom: 80px;
+}
+.how-work-step-image{
+    width: 77px;
+}
+.quick-links{
+    margin-top: 15px;
+}
+#btn-close-search{
+    display: block;
+padding: 17px;
+}
+section.why-seazoned{
+    border-top: 1px solid #ececec;
+}
+.nav-link-icon{
+    height: 78px;
+}
+.card-block .col-md.border-left{
+    border:none;
+}
+.card-block .col-md.border-left address{
+    padding: 0 30px;
+}
+}
+
+@media only screen and (max-width: 580px) {
+    .page-heading{
+        text-align: center;
+    }
+    .radio-frequency-box .time-of-service{
+        font-size: 15px;
+    }
+    .radio-frequency-box .price-of-service{
+        font-size: 31px;
+    }
+    .radio-frequency-box span.total-text-ser{
+        padding: 10px;
+    }
+    .service-add .card-footer .btn-success{
+    padding: 12px 24px;
+}
+    .banner-profile-sec .avtar{
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+    .feature-banner{
+        height: 300px;
+    }
+    .pro-details{
+        width:100%;
+        text-align: center;
+        position: inherit;
+        left: inherit;
+        margin-top: 10px;
+    }
+    .pro-details .profile-name{
+        font-size: 22px;
+        width: 100%;
+    }
+
+    .header-menu ul{
+        float: right;
+    }
+    .header-menu ul li.menu-login-btn {
+        margin: 0px 15px;
+    }
+    section.banner .welcome-text {
+        margin-top: 25px;
+    }
+   
+    .header-menu ul li.search-icon a {
+        color:  #13c49e;
+        font-size: 20px;
+        font-weight: 300;
+        text-decoration: none;
+    }
+    .header-menu ul li.menu-login-btn a {
+        padding: 30px 15px;
+        font-size: 17px;
+        color: #fff;
+        background: #de4d4f;
+        text-decoration: none;
+        display: block;
+    }
+    .header-menu ul li.menu-login-btn {
+        margin-left: 0px;
+    }
+    .nav-user-login .dropdown-menu{
+        left: auto;
+        right: 0px;
+    }
+    
+}

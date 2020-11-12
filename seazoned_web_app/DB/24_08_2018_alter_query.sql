@@ -1,0 +1,1 @@
+ALTER TABLE `book_services` CHANGE `notification_status_user` `notification_status_user` INT(11) NOT NULL DEFAULT '0';

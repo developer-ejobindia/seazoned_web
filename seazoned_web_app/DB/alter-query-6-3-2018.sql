@@ -1,0 +1,4 @@
+ALTER TABLE `users` CHANGE `password` `password` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL;
+ALTER TABLE `users` ADD `social_id` VARCHAR(255) NULL DEFAULT NULL AFTER `active`, ADD `social_source` VARCHAR(255) NULL DEFAULT NULL AFTER `social_id`;
+ALTER TABLE `user_details` CHANGE `country` `country` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL;
+ALTER TABLE `address_books` CHANGE `address` `address` LONGTEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL, CHANGE `state` `state` VARCHAR(100) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL, CHANGE `contact_number` `contact_number` VARCHAR(20) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL;
